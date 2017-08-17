@@ -1,0 +1,12 @@
+D:\Program Files\Unity\Editor\Unity.exe -batchmode -projectPath F:\workspace\ORG_GameMaker\OrangeGameMakerII_Engine -executeMethod ToLuaMenu.ClearLuaWraps 
+-executeMethod ToLuaMenu.BuildWindowsResource
+-executeMethod BuildSecurityPackager.BuildWin_x86
+
+
+D:\Program Files\Unity\Editor.\Unity.exe -quit -projectPath F:\workspace\ORG_GameMaker\OrangeGameMakerII_Engine -executeMethod TestEditor.PackagePcVersion
+
+D:\Program Files\Unity\Editor\Unity.exe -quit -projectPath F:\workspace\ORG_GameMaker\OrangeGameMakerII_Engine -executeMethod ToLuaMenu.ClearLuaWraps
+D:\Program Files\Unity\Editor\Unity.exe -quit -projectPath F:\workspace\ORG_GameMaker\OrangeGameMakerII_Engine -executeMethod Packager.BuildWindowsResource
+D:\Program Files\Unity\Editor\Unity.exe -projectPath  F:\workspace\ORG_GameMaker\OrangeGameMakerII_Engine -executeMethod TestEditor.TestPlay
+
+D:\Program Files\Unity\Editor.\Unity.exe -projectPath  F:\workspace\ORG_GameMaker\OrangeGameMakerII_Engine -executeMethod BuildSecurityPackager.BuildWin_x86 +PackagePath C:/Users/SzoFiel/Desktop/OrangeGameMakerII_Engine_PC_TestVersion/OrangeGameMakerII_Engine_PC_TestVersion_4.3.4

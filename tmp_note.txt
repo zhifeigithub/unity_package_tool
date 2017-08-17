@@ -1,0 +1,56 @@
+import my_exception
+
+self.test_play_button.clicked.connect(self.test_play)
+self.package_button.clicked.connect(self.package)
+
+def set_test_play_button_click(self, function):
+    self.test_play_button.clicked.connect(self.function)
+
+def set_package_button_click(self, function):
+    self.package_button.clicked.connect(self.function)
+
+def test_play(self):
+    import sys
+    sys.path.append("C:/Users/SzoFiel/Desktop/打包自动化/")
+    import test_play
+
+def package(self):
+    import sys
+    sys.path.append("C:/Users/SzoFiel/Desktop/打包自动化/")
+    import package
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    try:
+        sys.exit(app.exec_())
+    except:
+        print("Exiting")
+
+
+import sys
+f_handler = open('out.log', 'w')
+sys.stdout = f_handler
+
+
+import io
+from contextlib import redirect_stdout
+while 1:
+    with io.StringIO() as buf, redirect_stdout(buf):
+        print('redirected')
+        output = buf.getvalue()
+        ui.update_text(output)
+
+
+########################################################
+def set_test_play_button_click(self,call_func):
+    self.test_play_button.clicked.connect(call_func)
+
+def set_package_button_click(self,call_func):
+    self.package_button.clicked.connect(call_func)
+
+pyuic5 C:\Users\SzoFiel\Desktop\打包自动化\PyCharmPrj\PyQt\package_ui.ui > C:\Users\SzoFiel\Desktop\打 包自动化\PyCharmPrj\PyQt\package_ui.py
