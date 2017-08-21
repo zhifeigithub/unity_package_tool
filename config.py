@@ -2,7 +2,7 @@
 import os
 import shutil
 
-config_path = "F:/workspace/ORG_GameMaker/Documents/共享文档/橙光引擎II/说明文档/package_config.txt"
+config_path = "E:/GitHub/unity_package_tool/package_config.txt"
 
 
 def get_data():

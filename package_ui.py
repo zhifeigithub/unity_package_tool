@@ -11,7 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(650, 130)
+        MainWindow.resize(850, 130)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.test_play_button = QtWidgets.QPushButton(self.centralwidget)
@@ -26,6 +26,10 @@ class Ui_MainWindow(object):
         self.instruction_button.setGeometry(QtCore.QRect(450, 20, 171, 71))
         self.instruction_button.setStyleSheet("font: 75 20pt \"Consolas\";")
         self.instruction_button.setObjectName("instruction_button")
+        self.update_package_button = QtWidgets.QPushButton(self.centralwidget)
+        self.update_package_button.setGeometry(QtCore.QRect(660, 20, 171, 71))
+        self.update_package_button.setStyleSheet("font: 75 20pt \"Consolas\";")
+        self.update_package_button.setObjectName("update_package_button")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 436, 23))
@@ -48,6 +52,7 @@ class Ui_MainWindow(object):
         self.test_play_button.setText(_translate("MainWindow", "Test"))
         self.package_button.setText(_translate("MainWindow", "Package"))
         self.instruction_button.setText(_translate("MainWindow", "UpdateLog"))
+        self.update_package_button.setText(_translate("MainWindow", "UpdatePackageProj"))
 
     def set_test_play_button_click(self, call_func):
         self.test_play_button.clicked.connect(call_func)
@@ -57,3 +62,6 @@ class Ui_MainWindow(object):
 
     def set_instruction_button_click(self, call_func):
         self.instruction_button.clicked.connect(call_func)
+
+    def set_update_package_button_click(self, call_func):
+        self.update_package_button.clicked.connect(call_func)

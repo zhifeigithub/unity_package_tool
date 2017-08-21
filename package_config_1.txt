@@ -1,43 +1,14 @@
-﻿#package_config_path = E:\GitHub\unity_package_tool\package_config.txt
-
+﻿#package_data_path = C:/Users/SzoFiel/Desktop/打包自动化/package_data.txt
 #project_path = F:/workspace/ORG_GameMaker/OrangeGameMakerII_Engine/
-
-#my_package_project_path = F:\workspace\ORG_GameMaker\Package_OrangeGameMakerII_Engine\
-
 #file_name=OrangeGameMakerII_Engine_PC_TestVersion_4.3.4
-
 #package_path = C:/Users/SzoFiel/Desktop/OrangeGameMakerII_Engine_PC_TestVersion/
-
-#unity_file_path = D:/Program Files/Unity/Editor/Unity.exe
-
-#svn_gui_path = D:/Program Files/TortoiseSVN/bin/TortoiseProc.exe
-
-#api_factory_new_path = F:/workspace/ORG_GameMaker/OrangeGameMakerII_Engine/Assets/LuaFramework/Lua/ORG/api/api_factory_new.lua
-
-#test_new_path = C:/Users/SzoFiel/Desktop/data/data_test/lua/test/test_new.lua
-
-#config_path = C:\Users\SzoFiel\Desktop\OrangeGameMakerII_Engine_PC_TestVersion\config.txt
-
 #instruction_files_path = F:/workspace/ORG_GameMaker/Documents/共享文档/橙光引擎II/说明文档/
-
 #release_file_path = F:/workspace/ORG_GameMaker/Documents/共享文档/橙光引擎II/说明文档/更新日志.txt
-
 #release_information=
 哈哈哈哈哈哈哈
 OrangeGameMakerII_Engine_PC_TestVersion_4.3.4：
 修改：
 1.抖动效果：api_factory_new:do_shake()
-
 #api_factory_new_path = F:/workspace/ORG_GameMaker/Package_OrangeGameMakerII_Engine/Assets/LuaFramework/Lua/ORG/api/api_factory_new.lua
-
 #test_new_path = C:/Users/SzoFiel/Desktop/data/data_test/lua/test/test_new.lua
-
-
-
-
-
-
-
-
-
 #
