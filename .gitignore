@@ -1,2 +1,8 @@
 
 *.pyc
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/unity_package_tool.iml
+.idea/vcs.xml
+.idea/workspace.xml
