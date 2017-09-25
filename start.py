@@ -3,7 +3,7 @@ import package_ui
 import my_exception
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-class my_start:
+class my_start():
     def test_play(self):
         import test_play
 
@@ -15,6 +15,19 @@ class my_start:
 
     def update_package_files(self):
         import update_package_project_files
+
+    def update_test_files(self):
+        import update_test_project_files
+
+    def edit_config(self):
+        import edit_config
+
+    def test_vs(self):
+        import test_vs_project
+
+    def package_vs(self):
+        import package_vs_project
+
 
 #f_handler = open('out.log', 'w+')
 #sys.stdout = f_handler
@@ -28,6 +41,10 @@ ui.set_test_play_button_click(begin.test_play)
 ui.set_package_button_click(begin.package)
 ui.set_instruction_button_click(begin.update_instruction)
 ui.set_update_package_button_click(begin.update_package_files)
+ui.set_update_test_button_click(begin.update_test_files)
+ui.set_edit_config_button_click(begin.edit_config)
+ui.set_test_vs_button_click(begin.test_vs)
+ui.set_package_vs_button_click(begin.package_vs)
 
 icon = QtGui.QIcon()
 icon.addPixmap(QtGui.QPixmap("icon.png"),QtGui.QIcon.Normal, QtGui.QIcon.Off)

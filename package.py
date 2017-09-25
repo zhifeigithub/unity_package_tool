@@ -24,8 +24,10 @@ new_package_file_path = new_package_path +"/"+new_package_name+".exe"
 
 unity_package_argument = "+PackagePath"+" "+new_package_file_path
 
-package_cmd.excute(data["unity_file_path"]+" "+"-batchmode -quit -projectPath " + data["project_path"] + " -executeMethod TestEditor.Package"+" "+unity_package_argument,"打包")
+tmp_line = data["unity_file_path"]+" "+"-batchmode -quit -projectPath " + data["package_project_path"] + " -executeMethod TestEditor.Package"+" "+unity_package_argument
 
+#package_cmd.excute(data["unity_file_path"]+" "+"-batchmode -quit -projectPath " + data["package_project_path"] + " -executeMethod TestEditor.Package"+" "+unity_package_argument,"打包")
+package_cmd.excute(tmp_line,"打包")
 '''############复制config.txt文件#################'''
 
 #new_package_path = new_dir_creator.new_package_path

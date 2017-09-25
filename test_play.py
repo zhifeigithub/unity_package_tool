@@ -4,7 +4,7 @@ import config
 import package_cmd
 
 data = config.get_data()
-project_path = data["project_path"]
+project_path = data["test_project_path"]
 unity_file_path = data["unity_file_path"]
 
 #clear_wrap_and_generate
