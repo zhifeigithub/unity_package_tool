@@ -8,7 +8,7 @@
 
 #package_project_vs = F:\workspace\ORG_GameMaker\Package_OrangeGameMakerII_Engine\Package_OrangeGameMakerII_Engine.sln
 
-#file_name=OrangeGameMakerII_Engine_PC_TestVersion_4.3.4
+#file_name=OrangeGameMakerII_Engine_PC_TestVersion_4.3.5
 
 #package_path = C:/Users/SzoFiel/Desktop/OrangeGameMakerII_Engine_PC_TestVersion/
 
@@ -29,10 +29,10 @@
 #release_file_path = F:/workspace/ORG_GameMaker/Documents/共享文档/橙光引擎II/说明文档/更新日志.txt
 
 #release_information=
-OrangeGameMakerII_Engine_PC_TestVersion_4.3.4：
+OrangeGameMakerII_Engine_PC_TestVersion_4.3.5：
 修改：
-1.删掉重复的接口：set_joystick_image，set_joystick_area
-2.api_factory_new:create_org_obj(data,parent,is_rigidbody,is_cached)增加is_cached参数：是否缓存db
+1.增加二进制读写方式
+2.基于性能优化，rpg模式采用纹理压缩技术进行可行走区域判断
 
 #api_factory_new_path = F:/workspace/ORG_GameMaker/Package_OrangeGameMakerII_Engine/Assets/LuaFramework/Lua/ORG/api/api_factory_new.lua
 
