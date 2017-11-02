@@ -7,6 +7,9 @@ class my_start():
     def test_play(self):
         import test_play
 
+    def package_play(self):
+        import package_play
+
     def package(self):
         import package
 
@@ -38,6 +41,7 @@ ui.setupUi(MainWindow)
 
 begin = my_start()
 ui.set_test_play_button_click(begin.test_play)
+ui.set_package_play_button_click(begin.package_play)
 ui.set_package_button_click(begin.package)
 ui.set_instruction_button_click(begin.update_instruction)
 ui.set_update_package_button_click(begin.update_package_files)

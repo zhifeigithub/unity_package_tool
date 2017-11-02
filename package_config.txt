@@ -8,8 +8,6 @@
 
 #package_project_vs = F:\workspace\ORG_GameMaker\Package_OrangeGameMakerII_Engine\Package_OrangeGameMakerII_Engine.sln
 
-#file_name=OrangeGameMakerII_Engine_PC_TestVersion_4.3.5
-
 #package_path = C:/Users/SzoFiel/Desktop/OrangeGameMakerII_Engine_PC_TestVersion/
 
 #unity_file_path = D:/Program Files/Unity/Editor/Unity.exe
@@ -28,11 +26,13 @@
 
 #release_file_path = F:/workspace/ORG_GameMaker/Documents/共享文档/橙光引擎II/说明文档/更新日志.txt
 
+#file_name=OrangeGameMakerII_Engine_PC_TestVersion_4.3.13
+
 #release_information=
-OrangeGameMakerII_Engine_PC_TestVersion_4.3.5：
-修改：
-1.增加二进制读写方式
-2.基于性能优化，rpg模式采用纹理压缩技术进行可行走区域判断
+OrangeGameMakerII_Engine_PC_TestVersion_4.3.13：
+修复：
+1.
+九宫格坐标不对
 
 #api_factory_new_path = F:/workspace/ORG_GameMaker/Package_OrangeGameMakerII_Engine/Assets/LuaFramework/Lua/ORG/api/api_factory_new.lua
 

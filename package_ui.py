@@ -11,15 +11,19 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(400, 790)
+        MainWindow.resize(450, 790)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.test_play_button = QtWidgets.QPushButton(self.centralwidget)
         self.test_play_button.setGeometry(QtCore.QRect(30, 20, 171, 71))
         self.test_play_button.setStyleSheet("font: 75 20pt \"Consolas\";")
         self.test_play_button.setObjectName("test_play_button")
+        self.package_play_button = QtWidgets.QPushButton(self.centralwidget)
+        self.package_play_button.setGeometry(QtCore.QRect(30, 110, 171, 71))
+        self.package_play_button.setStyleSheet("font: 75 20pt \"Consolas\";")
+        self.package_play_button.setObjectName("package_play_button")
         self.package_button = QtWidgets.QPushButton(self.centralwidget)
-        self.package_button.setGeometry(QtCore.QRect(30, 110, 171, 71))
+        self.package_button.setGeometry(QtCore.QRect(230, 110, 171, 71))
         self.package_button.setStyleSheet("font: 75 20pt \"Consolas\";")
         self.package_button.setObjectName("package_button")
         self.instruction_button = QtWidgets.QPushButton(self.centralwidget)
@@ -27,7 +31,7 @@ class Ui_MainWindow(object):
         self.instruction_button.setStyleSheet("font: 75 20pt \"Consolas\";")
         self.instruction_button.setObjectName("instruction_button")
         self.update_package_button = QtWidgets.QPushButton(self.centralwidget)
-        self.update_package_button.setGeometry(QtCore.QRect(30, 290, 300, 71))
+        self.update_package_button.setGeometry(QtCore.QRect(30, 290, 250, 71))
         self.update_package_button.setStyleSheet("font: 75 20pt \"Consolas\";")
         self.update_package_button.setObjectName("update_package_button")
         self.update_test_button = QtWidgets.QPushButton(self.centralwidget)
@@ -66,6 +70,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Unity_Package_Tool"))
         self.test_play_button.setText(_translate("MainWindow", "测试运行"))
+        self.package_play_button.setText(_translate("MainWindow", "打包运行"))
         self.package_button.setText(_translate("MainWindow", "打新包"))
         self.instruction_button.setText(_translate("MainWindow", "更新日志"))
         self.update_package_button.setText(_translate("MainWindow", "更新打包文件夹"))
@@ -73,8 +78,12 @@ class Ui_MainWindow(object):
         self.edit_config_button.setText(_translate("MainWindow", "编辑配置文件"))
         self.test_vs_button.setText(_translate("MainWindow", "打开测试VS工程"))
         self.package_vs_button.setText(_translate("MainWindow", "打开打包VS工程"))
+
     def set_test_play_button_click(self, call_func):
         self.test_play_button.clicked.connect(call_func)
+
+    def set_package_play_button_click(self, call_func):
+        self.package_play_button.clicked.connect(call_func)
 
     def set_package_button_click(self, call_func):
         self.package_button.clicked.connect(call_func)
